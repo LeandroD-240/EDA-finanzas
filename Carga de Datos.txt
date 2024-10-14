@@ -1,0 +1,39 @@
+Realizar el siguiente analisis exploratorio
+
+Selección del Activo:
+
+Deberá seleccionar un activo financiero que les interese. Puede ser una acción (como AAPL, TSLA), un índice (como el S&P 500), o una criptomoneda (como BTC o ETH). No elegir AAPL
+
+Carga de Datos:
+
+Utilizando la biblioteca finance o yfinance, deberán descargar los datos históricos del activo seleccionado (mínimo 3 años de datos diarios).
+Análisis Exploratorio de Datos (EDA):
+
+A continuación, se indican los pasos del EDA que cada grupo debe realizar:
+
+1. Visualización de los Datos:
+
+Importar los datos y mostrar un resumen inicial de las columnas y las primeras filas.
+Verificar la existencia de valores nulos o faltantes.
+
+2. Estadísticas Descriptivas:
+
+Calcular y mostrar las estadísticas descriptivas como el promedio, la mediana, la desviación estándar, el mínimo y el máximo de los precios.
+
+3. Visualización del Precio Histórico:
+
+Crear una gráfica de líneas que muestre el precio de cierre ajustado (Adj Close) a lo largo del tiempo.
+4. Análisis de Volatilidad:
+
+Calcular los rendimientos diarios del activo utilizando el método .pct_change() y visualizar su distribución utilizando un histograma.
+Visualizar también la volatilidad del activo con una gráfica de rolling standard deviation.
+
+5. Matriz de Correlación:
+
+Si los datos contienen más variables, como precios de apertura, cierre, alto y bajo, calcular la matriz de correlación entre estas variables y visualizarla utilizando un heatmap (mapa de calor).
+6. Análisis de Tendencias:
+
+Utilizar técnicas de suavización como la media móvil (moving average) para identificar tendencias en el precio del activo. Visualizar la media móvil de 50 días y 200 días superpuesta sobre el gráfico de precios.
+7. Relación con el Volumen:
+
+Crear un gráfico combinado que muestre el volumen de transacciones y los precios de cierre ajustados para analizar si existe alguna relación entre el volumen y el movimiento de precios.
